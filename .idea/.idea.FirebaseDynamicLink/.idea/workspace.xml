@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f89d7d0-8f4e-4a20-b22d-5ecb730e0ff2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FirebaseDynamicLink/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FirebaseDynamicLink/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FirebaseDynamicLink/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.FirebaseDynamicLink/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinks/MainScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinks/MainScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinks/UIHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinks/UIHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Sample/GuiSkin.guiskin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Firebase/Sample/GuiSkin.guiskin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirebaseDynamicLink.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FirebaseDynamicLink.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CrashedAssetImports.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/645e67-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/645e67-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/14/14ab14e9b97f743dca62b51e1e369f07" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/14/14ab14e9b97f743dca62b51e1e369f07" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/21/2178d4f32b4f57f46bbc1d01a49f38f4" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/21/2178d4f32b4f57f46bbc1d01a49f38f4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/54/54df40279a57ad44581f6e324f61326c" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/54/54df40279a57ad44581f6e324f61326c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/54/54df40279a57ad44581f6e324f61326c.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/54/54df40279a57ad44581f6e324f61326c.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/55/552814c88c97f5b43aa5620a0617749b" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/55/552814c88c97f5b43aa5620a0617749b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/55/552814c88c97f5b43aa5620a0617749b.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/55/552814c88c97f5b43aa5620a0617749b.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/DummyInstaller.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <marker date="1566319232907" expanded="true" signature="6:163" ph="..." />
+                <marker date="1566319232907" expanded="true" signature="179:532" ph="{...}" />
+                <marker date="1566319232907" expanded="true" signature="229:520" ph="{...}" />
+                <marker date="1566319232907" expanded="true" signature="313:514" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinksFolder/DeepLinkingListener.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1566318232689" expanded="false" signature="6:42" ph="..." />
+                <marker date="1566318232689" expanded="true" signature="88:239" ph="{...}" />
+                <marker date="1566318232689" expanded="true" signature="147:237" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinksFolder/DeepLinkingController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+              <folding>
+                <marker date="1566319229621" expanded="true" signature="59:307" ph="{...}" />
+                <marker date="1566319229621" expanded="true" signature="125:305" ph="{...}" />
+                <marker date="1566319229621" expanded="true" signature="199:299" ph="{...}" />
+                <marker date="1566319229621" expanded="true" signature="222:289" ph="/* DynamicLinks += listener; ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinksFolder/UIHandler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+              <folding>
+                <marker date="1566318207735" expanded="true" signature="0:608" ph="/* Copyright 2017 Google Inc. All rights reserved. ... */" />
+                <marker date="1566318207735" expanded="true" signature="680:6597" ph="{...}" />
+                <marker date="1566318207735" expanded="false" signature="690:880" ph="..." />
+                <marker date="1566318207735" expanded="true" signature="884:1018" ph="/* Handler for UI buttons on the scene.  Also performs some ... */" />
+                <marker date="1566318207735" expanded="true" signature="1044:6595" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="1736:2028" ph="/* IMPORTANT: You need to set this to a valid domain from the Firebase ... */" />
+                <marker date="1566318207735" expanded="true" signature="2061:2430" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="2145:2422" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="2247:2290" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="2525:2589" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="2612:2676" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="2793:3022" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="3080:4730" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="3412:4723" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="3504:3671" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="3752:4023" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="4139:4271" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="4360:4468" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="4556:4714" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="4774:4940" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="5009:5087" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="5167:5308" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="5236:5300" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="5404:6591" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="5467:5704" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="5869:6583" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="5902:5971" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="5997:6110" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="6367:6531" ph="{...}" />
+                <marker date="1566318207735" expanded="true" signature="6456:6517" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95339026-2B5B-4881-B03E-5590BF9CB099/19/213ce63e/DynamicLinks.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <marker date="1566317945813" expanded="true" signature="0:336" ph="/* Decompiled with JetBrains decompiler ... */" />
+                <marker date="1566317945813" expanded="true" signature="439:3972" ph="{...}" />
+                <marker date="1566317945813" expanded="true" signature="476:3970" ph="{...}" />
+                <marker date="1566317945813" expanded="true" signature="574:586" ph="{...}" />
+                <marker date="1566317945813" expanded="true" signature="674:1217" ph="{...}" />
+                <marker date="1566317945813" expanded="true" signature="690:944" ph="{...}" />
+                <marker date="1566317945813" expanded="true" signature="957:1211" ph="{...}" />
+                <marker date="1566317945813" expanded="true" signature="1401:1690" ph="{...}" />
+                <marker date="1566317945813" expanded="true" signature="1631:1682" ph="{...}" />
+                <marker date="1566317945813" expanded="true" signature="1825:2019" ph="{...}" />
+                <marker date="1566317945813" expanded="true" signature="2120:2237" ph="{...}" />
+                <marker date="1566317945813" expanded="true" signature="2359:2566" ph="{...}" />
+                <marker date="1566317945813" expanded="true" signature="2647:2769" ph="{...}" />
+                <marker date="1566317945813" expanded="true" signature="2912:3628" ph="{...}" />
+                <marker date="1566317945813" expanded="true" signature="3153:3573" ph="{...}" />
+                <marker date="1566317945813" expanded="true" signature="3679:3966" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>debug</find>
+      <find>+=</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/DummyInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinksFolder/UIHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinksFolder/DeepLinkingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95339026-2B5B-4881-B03E-5590BF9CB099/19/213ce63e/DynamicLinks.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95339026-2B5B-4881-B03E-5590BF9CB099/ec/1edf91f9/ReceivedDynamicLinkEventArgs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinksFolder/DeepLinkingListener.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinks/DeepLinkingListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinks/IDeepLinkingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinks/IDeepLinkListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinks/OldUiHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinks/UIHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinks/DeepLinkingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/DummyInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinksFolder/DeepLinkingController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-615" />
+    <option name="y" value="-29" />
+    <option name="width" value="1936" />
+    <option name="height" value="704" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="AssemblyExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="5427d58d:AssemblyExplorerRootNode" />
+              <item name="Firebase.DynamicLinks (1.0.0.0, msil, .Net Framework v3.5)" type="5e97225f:AssemblyExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="5427d58d:AssemblyExplorerRootNode" />
+              <item name="Firebase.DynamicLinks (1.0.0.0, msil, .Net Framework v3.5)" type="5e97225f:AssemblyExplorerNode" />
+              <item name="Firebase.DynamicLinks" type="5e97225f:AssemblyExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f89d7d0-8f4e-4a20-b22d-5ecb730e0ff2" name="Default Changelist" comment="" />
+      <created>1566316513211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566316513211</updated>
+      <workItem from="1566316515341" duration="1870000" />
+      <workItem from="1566318469178" duration="759000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2629000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11310">
+          <caret line="775" column="26" selection-start-line="775" selection-start-column="26" selection-end-line="775" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95339026-2B5B-4881-B03E-5590BF9CB099/ec/1edf91f9/ReceivedDynamicLinkEventArgs.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinks/IDeepLinkingController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinks/DeepLinkingListener.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinks/IDeepLinkListener.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinks/OldUiHandler.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinks/UIHandler.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinks/DeepLinkingController.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95339026-2B5B-4881-B03E-5590BF9CB099/19/213ce63e/DynamicLinks.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <marker date="1566317945813" expanded="true" signature="0:336" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1566317945813" expanded="true" signature="439:3972" ph="{...}" />
+            <marker date="1566317945813" expanded="true" signature="476:3970" ph="{...}" />
+            <marker date="1566317945813" expanded="true" signature="574:586" ph="{...}" />
+            <marker date="1566317945813" expanded="true" signature="674:1217" ph="{...}" />
+            <marker date="1566317945813" expanded="true" signature="690:944" ph="{...}" />
+            <marker date="1566317945813" expanded="true" signature="957:1211" ph="{...}" />
+            <marker date="1566317945813" expanded="true" signature="1401:1690" ph="{...}" />
+            <marker date="1566317945813" expanded="true" signature="1631:1682" ph="{...}" />
+            <marker date="1566317945813" expanded="true" signature="1825:2019" ph="{...}" />
+            <marker date="1566317945813" expanded="true" signature="2120:2237" ph="{...}" />
+            <marker date="1566317945813" expanded="true" signature="2359:2566" ph="{...}" />
+            <marker date="1566317945813" expanded="true" signature="2647:2769" ph="{...}" />
+            <marker date="1566317945813" expanded="true" signature="2912:3628" ph="{...}" />
+            <marker date="1566317945813" expanded="true" signature="3153:3573" ph="{...}" />
+            <marker date="1566317945813" expanded="true" signature="3679:3966" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinksFolder/DeepLinkingListener.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1566318232689" expanded="false" signature="6:42" ph="..." />
+            <marker date="1566318232689" expanded="true" signature="88:239" ph="{...}" />
+            <marker date="1566318232689" expanded="true" signature="147:237" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinksFolder/UIHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
+          <folding>
+            <marker date="1566318207735" expanded="true" signature="0:608" ph="/* Copyright 2017 Google Inc. All rights reserved. ... */" />
+            <marker date="1566318207735" expanded="true" signature="680:6597" ph="{...}" />
+            <marker date="1566318207735" expanded="false" signature="690:880" ph="..." />
+            <marker date="1566318207735" expanded="true" signature="884:1018" ph="/* Handler for UI buttons on the scene.  Also performs some ... */" />
+            <marker date="1566318207735" expanded="true" signature="1044:6595" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="1736:2028" ph="/* IMPORTANT: You need to set this to a valid domain from the Firebase ... */" />
+            <marker date="1566318207735" expanded="true" signature="2061:2430" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="2145:2422" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="2247:2290" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="2525:2589" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="2612:2676" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="2793:3022" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="3080:4730" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="3412:4723" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="3504:3671" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="3752:4023" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="4139:4271" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="4360:4468" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="4556:4714" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="4774:4940" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="5009:5087" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="5167:5308" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="5236:5300" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="5404:6591" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="5467:5704" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="5869:6583" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="5902:5971" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="5997:6110" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="6367:6531" ph="{...}" />
+            <marker date="1566318207735" expanded="true" signature="6456:6517" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Core/DummyInstaller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <marker date="1566319232907" expanded="true" signature="6:163" ph="..." />
+            <marker date="1566319232907" expanded="true" signature="179:532" ph="{...}" />
+            <marker date="1566319232907" expanded="true" signature="229:520" ph="{...}" />
+            <marker date="1566319232907" expanded="true" signature="313:514" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Firebase/Sample/DynamicLinksFolder/DeepLinkingController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <marker date="1566319229621" expanded="true" signature="59:307" ph="{...}" />
+            <marker date="1566319229621" expanded="true" signature="125:305" ph="{...}" />
+            <marker date="1566319229621" expanded="true" signature="199:299" ph="{...}" />
+            <marker date="1566319229621" expanded="true" signature="222:289" ph="/* DynamicLinks += listener; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

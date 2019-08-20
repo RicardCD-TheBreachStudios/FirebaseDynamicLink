@@ -1,6 +1,8 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{B6A9442F-32C4-D2AA-D31A-05B73F24240E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicLinksFolder", "DynamicLinksFolder.csproj", "{0010979E-D2F4-7D11-F2B3-205D490AC656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core.csproj", "{7DAD7ABE-A273-96A8-C08A-A8965F9D992B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,10 +10,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B6A9442F-32C4-D2AA-D31A-05B73F24240E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B6A9442F-32C4-D2AA-D31A-05B73F24240E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B6A9442F-32C4-D2AA-D31A-05B73F24240E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B6A9442F-32C4-D2AA-D31A-05B73F24240E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0010979E-D2F4-7D11-F2B3-205D490AC656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0010979E-D2F4-7D11-F2B3-205D490AC656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0010979E-D2F4-7D11-F2B3-205D490AC656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0010979E-D2F4-7D11-F2B3-205D490AC656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DAD7ABE-A273-96A8-C08A-A8965F9D992B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DAD7ABE-A273-96A8-C08A-A8965F9D992B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DAD7ABE-A273-96A8-C08A-A8965F9D992B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DAD7ABE-A273-96A8-C08A-A8965F9D992B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

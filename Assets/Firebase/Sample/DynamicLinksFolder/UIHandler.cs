@@ -14,7 +14,7 @@
 
 using System.Threading;
 
-namespace Firebase.Sample.DynamicLinks {
+namespace Firebase.Sample.DynamicLinksFolder {
   using Firebase;
   using Firebase.DynamicLinks;
   using Firebase.Extensions;
@@ -27,14 +27,11 @@ namespace Firebase.Sample.DynamicLinks {
   // Handler for UI buttons on the scene.  Also performs some
   // necessary setup (initializing the firebase app, etc) on
   // startup.
-  public class UIHandler : MonoBehaviour {
+  public class UIHandler {
 
     public GUISkin fb_GUISkin;
-    private Vector2 controlsScrollViewVector = Vector2.zero;
-    private Vector2 scrollViewVector = Vector2.zero;
     bool UIEnabled = true;
     private string logText = "";
-    const int kMaxLogSize = 16382;
     DependencyStatus dependencyStatus = DependencyStatus.UnavailableOther;
     const string kInvalidDynamicLinksDomain = "THIS_IS_AN_INVALID_DOMAIN";
     const string kDynamicLinksDomainInvalidError =
@@ -44,11 +41,10 @@ namespace Firebase.Sample.DynamicLinks {
       "* Click on the Dynamic Links tab\n" +
       "* Copy the domain e.g x20yz.app.goo.gl\n" +
       "* Replace the value of kDynamicLinksDomain with the copied domain.\n";
-    public bool firebaseInitialized = false;
+    public string kDynamicLinksDomain;
 
     // IMPORTANT: You need to set this to a valid domain from the Firebase
     // console (see kDynamicLinksDomainInvalidError for the details).
-    public string kDynamicLinksDomain = "fwk68.app.goo.gl";
 
     // When the app starts, check to make sure that we have
     // the required dependencies to use Firebase, and if not,
@@ -64,18 +60,9 @@ namespace Firebase.Sample.DynamicLinks {
         }
       });
     }
-
-    // Exit if escape (or back, on mobile) is pressed.
-    public virtual void Update() {
-      if (Input.GetKeyDown(KeyCode.Escape)) {
-        Application.Quit();
-      }
-    }
-
     // Handle initialization of the necessary firebase modules:
     void InitializeFirebase() {
       DynamicLinks.DynamicLinkReceived += OnDynamicLink;
-      firebaseInitialized = true;
     }
 
     void OnDestroy() {
@@ -85,36 +72,8 @@ namespace Firebase.Sample.DynamicLinks {
     // Display the dynamic link received by the application.
     void OnDynamicLink(object sender, EventArgs args) {
       var dynamicLinkEventArgs = args as ReceivedDynamicLinkEventArgs;
-      DebugLog(String.Format("Received dynamic link {0}",
+      Debug.Log(String.Format("Received dynamic link {0}",
                              dynamicLinkEventArgs.ReceivedDynamicLink.Url.OriginalString));
-    }
-
-    // Output text to the debug log text field, as well as the console.
-    public void DebugLog(string s) {
-      print(s);
-      logText += s + "\n";
-
-      while (logText.Length > kMaxLogSize) {
-        int index = logText.IndexOf("\n");
-        logText = logText.Substring(index + 1);
-      }
-
-      scrollViewVector.y = int.MaxValue;
-    }
-
-    public void DisableUI() {
-      UIEnabled = false;
-    }
-
-    public void EnableUI() {
-      UIEnabled = true;
-    }
-
-    // Render the log output in a scroll view.
-    void GUIDisplayLog() {
-      scrollViewVector = GUILayout.BeginScrollView(scrollViewVector);
-      GUILayout.Label(logText);
-      GUILayout.EndScrollView();
     }
 
     DynamicLinkComponents CreateDynamicLinkComponents() {
@@ -163,7 +122,7 @@ namespace Firebase.Sample.DynamicLinks {
 
     public Uri CreateAndDisplayLongLink() {
       var longLink = CreateDynamicLinkComponents().LongDynamicLink;
-      DebugLog(String.Format("Long dynamic link {0}", longLink));
+       Debug.Log(String.Format("Long dynamic link {0}", longLink));
       return longLink;
     }
 
@@ -179,7 +138,7 @@ namespace Firebase.Sample.DynamicLinks {
 
     private Task<ShortDynamicLink> CreateAndDisplayShortLinkAsync(DynamicLinkOptions options) {
       if (kDynamicLinksDomain == kInvalidDynamicLinksDomain) {
-        DebugLog(kDynamicLinksDomainInvalidError);
+         Debug.Log(kDynamicLinksDomainInvalidError);
         var source = new TaskCompletionSource<ShortDynamicLink>();
         source.TrySetException(new Exception(kDynamicLinksDomainInvalidError));
         return source.Task;
@@ -189,75 +148,23 @@ namespace Firebase.Sample.DynamicLinks {
       return DynamicLinks.GetShortLinkAsync(components, options)
         .ContinueWithOnMainThread((task) => {
           if (task.IsCanceled) {
-            DebugLog("Short link creation canceled");
+             Debug.Log("Short link creation canceled");
           } else if (task.IsFaulted) {
-            DebugLog(String.Format("Short link creation failed {0}", task.Exception.ToString()));
+             Debug.Log(String.Format("Short link creation failed {0}", task.Exception.ToString()));
           } else {
             ShortDynamicLink link = task.Result;
-            DebugLog(String.Format("Generated short link {0}", link.Url));
+             Debug.Log(String.Format("Generated short link {0}", link.Url));
             var warnings = new System.Collections.Generic.List<string>(link.Warnings);
             if (warnings.Count > 0) {
-              DebugLog("Warnings:");
+               Debug.Log("Warnings:");
               foreach (var warning in warnings) {
-                DebugLog("  " + warning);
+                 Debug.Log("  " + warning);
               }
             }
           }
           return task.Result;
         });
     }
-
-    // Render the buttons and other controls.
-    void GUIDisplayControls() {
-      if (UIEnabled) {
-        controlsScrollViewVector =
-            GUILayout.BeginScrollView(controlsScrollViewVector);
-        GUILayout.BeginVertical();
-
-        if (GUILayout.Button("Display Long Link")) {
-          CreateAndDisplayLongLink();
-        }
-
-        if (GUILayout.Button("Create Short Link")) {
-          CreateAndDisplayShortLinkAsync();
-        }
-
-        if (GUILayout.Button("Create Unguessable Short Link")) {
-          CreateAndDisplayUnguessableShortLinkAsync();
-        }
-
-        GUILayout.EndVertical();
-        GUILayout.EndScrollView();
-      }
-    }
-
-    // Render the GUI:
-    void OnGUI() {
-      GUI.skin = fb_GUISkin;
-      if (dependencyStatus != DependencyStatus.Available) {
-        GUILayout.Label("One or more Firebase dependencies are not present.");
-        GUILayout.Label("Current dependency status: " + dependencyStatus.ToString());
-        return;
-      }
-      Rect logArea, controlArea;
-
-      if (Screen.width < Screen.height) {
-        // Portrait mode
-        controlArea = new Rect(0.0f, 0.0f, Screen.width, Screen.height * 0.5f);
-        logArea = new Rect(0.0f, Screen.height * 0.5f, Screen.width, Screen.height * 0.5f);
-      } else {
-        // Landscape mode
-        controlArea = new Rect(0.0f, 0.0f, Screen.width * 0.5f, Screen.height);
-        logArea = new Rect(Screen.width * 0.5f, 0.0f, Screen.width * 0.5f, Screen.height);
-      }
-
-      GUILayout.BeginArea(logArea);
-      GUIDisplayLog();
-      GUILayout.EndArea();
-
-      GUILayout.BeginArea(controlArea);
-      GUIDisplayControls();
-      GUILayout.EndArea();
-    }
   }
 }
+

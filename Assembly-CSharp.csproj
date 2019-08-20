@@ -63,7 +63,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Firebase\Sample\DynamicLinks\UIHandler.cs" />
+    <Compile Include="Assets\Firebase\Sample\DynamicLinksFolder\DeepLinkingController.cs" />
+    <Compile Include="Assets\Firebase\Sample\DynamicLinksFolder\DeepLinkingListener.cs" />
+    <Compile Include="Assets\Firebase\Sample\DynamicLinksFolder\IDeepLinkingController.cs" />
+    <Compile Include="Assets\Firebase\Sample\DynamicLinksFolder\IDeepLinkListener.cs" />
+    <Compile Include="Assets\Firebase\Sample\DynamicLinksFolder\OldUiHandler.cs" />
+    <Compile Include="Assets\Firebase\Sample\DynamicLinksFolder\UIHandler.cs" />
     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-dynamic-links-unity\maven-metadata.xml" />
     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
     <Reference Include="Unity.TextMeshPro.Editor">
@@ -654,6 +659,12 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Core.csproj">
+      <Project>{7DAD7ABE-A273-96A8-C08A-A8965F9D992B}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
