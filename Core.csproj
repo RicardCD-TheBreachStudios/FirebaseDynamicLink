@@ -63,7 +63,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Core\DeepLinkingController.cs" />
+    <Compile Include="Assets\Scripts\Core\DeepLinkingReceiver.cs" />
     <Compile Include="Assets\Scripts\Core\DummyInstaller.cs" />
+    <Compile Include="Assets\Scripts\Core\IDeepLinkingController.cs" />
+    <Compile Include="Assets\Scripts\Core\IDeepLinkReceiver.cs" />
+    <Compile Include="Assets\Scripts\Core\ShowLink.cs" />
     <None Include="Assets\Scripts\Core\Core.asmdef" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

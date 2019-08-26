@@ -8,11 +8,7 @@
         <e p="Firebase" t="Include">
           <e p="Sample" t="Include">
             <e p="DynamicLinksFolder" t="Include">
-              <e p="DeepLinkingController.cs" t="Include" />
-              <e p="DeepLinkingListener.cs" t="Include" />
               <e p="DynamicLinksFolder.asmdef" t="Include" />
-              <e p="IDeepLinkingController.cs" t="Include" />
-              <e p="IDeepLinkListener.cs" t="Include" />
               <e p="OldUiHandler.cs" t="Include" />
               <e p="UIHandler.cs" t="Include" />
             </e>
@@ -21,7 +17,12 @@
         <e p="Scripts" t="Include">
           <e p="Core" t="Include">
             <e p="Core.asmdef" t="Include" />
+            <e p="DeepLinkingController.cs" t="Include" />
+            <e p="DeepLinkingReceiver.cs" t="Include" />
             <e p="DummyInstaller.cs" t="Include" />
+            <e p="IDeepLinkingController.cs" t="Include" />
+            <e p="IDeepLinkReceiver.cs" t="Include" />
+            <e p="ShowLink.cs" t="Include" />
           </e>
         </e>
       </e>
