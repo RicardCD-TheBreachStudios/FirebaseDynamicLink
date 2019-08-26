@@ -3,7 +3,7 @@ using Firebase.DynamicLinks;
 
 namespace Firebase.Sample.DynamicLinksFolder
 {
-    public class DeepLinkingListener : IDeepLinkListener
+    public class DeepLinkingReceiver : IDeepLinkReceiver
     {
         public event Action<ReceivedDynamicLinkEventArgs> OnDeepLinkReceived;
     }
