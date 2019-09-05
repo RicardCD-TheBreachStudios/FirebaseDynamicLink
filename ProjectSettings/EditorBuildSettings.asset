@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Firebase/Sample/DynamicLinks/MainScene.unity
+  - enabled: 0
+    path: Assets/Firebase/Sample/DynamicLinksFolder/MainScene.unity
     guid: 2178d4f32b4f57f46bbc1d01a49f38f4
   m_configObjects: {}
