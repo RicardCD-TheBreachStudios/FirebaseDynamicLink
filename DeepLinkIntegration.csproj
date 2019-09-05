@@ -63,8 +63,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\DeepLinkingIntegration\DeepLinkGenerator.cs" />
     <Compile Include="Assets\Scripts\DeepLinkingIntegration\DeepLinkingController.cs" />
     <Compile Include="Assets\Scripts\DeepLinkingIntegration\DeepLinkingReceiver.cs" />
+    <Compile Include="Assets\Scripts\DeepLinkingIntegration\DeepLinkTitleData.cs" />
+    <Compile Include="Assets\Scripts\DeepLinkingIntegration\DynamicLinkParametersConfiguration.cs" />
+    <Compile Include="Assets\Scripts\DeepLinkingIntegration\IDeepLinkGenerator.cs" />
     <Compile Include="Assets\Scripts\DeepLinkingIntegration\IDeepLinkingController.cs" />
     <Compile Include="Assets\Scripts\DeepLinkingIntegration\IDeepLinkReceiver.cs" />
     <None Include="Assets\Scripts\DeepLinkingIntegration\DeepLinkIntegration.asmdef" />
