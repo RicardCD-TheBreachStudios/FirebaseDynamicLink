@@ -1,7 +1,7 @@
 {
     "name": "Core",
     "references": [
-        "DynamicLinksFolder"
+        "DeepLinkIntegration"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],

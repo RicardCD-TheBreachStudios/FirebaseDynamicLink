@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Core\DummyInstaller.cs" />
+    <Compile Include="Assets\Scripts\Core\ShowLink.cs" />
     <None Include="Assets\Scripts\Core\Core.asmdef" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -697,9 +698,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="DynamicLinksFolder.csproj">
-      <Project>{0010979E-D2F4-7D11-F2B3-205D490AC656}</Project>
-      <Name>DynamicLinksFolder</Name>
+    <ProjectReference Include="DeepLinkIntegration.csproj">
+      <Project>{119A0FC1-BCB8-DD5E-C47C-BB11D01A86F7}</Project>
+      <Name>DeepLinkIntegration</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

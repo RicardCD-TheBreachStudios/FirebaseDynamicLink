@@ -63,12 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Firebase\Sample\DynamicLinksFolder\DeepLinkingController.cs" />
-    <Compile Include="Assets\Firebase\Sample\DynamicLinksFolder\DeepLinkingListener.cs" />
-    <Compile Include="Assets\Firebase\Sample\DynamicLinksFolder\IDeepLinkingController.cs" />
-    <Compile Include="Assets\Firebase\Sample\DynamicLinksFolder\IDeepLinkListener.cs" />
-    <Compile Include="Assets\Firebase\Sample\DynamicLinksFolder\OldUiHandler.cs" />
-    <Compile Include="Assets\Firebase\Sample\DynamicLinksFolder\UIHandler.cs" />
+    <Compile Include="Assets\Scripts\DeepLinkingIntegration\DeepLinkingController.cs" />
+    <Compile Include="Assets\Scripts\DeepLinkingIntegration\DeepLinkingReceiver.cs" />
+    <Compile Include="Assets\Scripts\DeepLinkingIntegration\IDeepLinkingController.cs" />
+    <Compile Include="Assets\Scripts\DeepLinkingIntegration\IDeepLinkReceiver.cs" />
     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-dynamic-links-unity\maven-metadata.xml" />
     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
     <Reference Include="Unity.TextMeshPro.Editor">
@@ -661,6 +659,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="DynamicLinksFolder.csproj">
+      <Project>{0010979E-D2F4-7D11-F2B3-205D490AC656}</Project>
+      <Name>DynamicLinksFolder</Name>
+    </ProjectReference>
     <ProjectReference Include="Core.csproj">
       <Project>{7DAD7ABE-A273-96A8-C08A-A8965F9D992B}</Project>
       <Name>Core</Name>
